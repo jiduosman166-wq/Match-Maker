@@ -1,0 +1,38 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #f9c5d1, #fbc2eb);
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    background:#fff;
+    padding: 30px;
+    border-radius: 15px;
+    width: 320px;
+    text-align: center;
+}
+input{
+    width: 90%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 8px;
+}
+button {
+    width: 60%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 8px;
+    background: #ff6b81;
+    color: white;
+    cursor: pointer;
+}
+#result {
+    margin-top: 10px;
+    color: white;
+}
